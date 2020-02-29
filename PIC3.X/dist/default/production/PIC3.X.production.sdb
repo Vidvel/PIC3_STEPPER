@@ -1,0 +1,217 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\i2clib.c
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"90
+[v _I2C_Slave_Init I2C_Slave_Init `(v  1 e 1 0 ]
+"35 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\PIC3_PD2.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"71
+[v _main main `(v  1 e 1 0 ]
+"99
+[v _setup setup `(v  1 e 1 0 ]
+"87 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\stepperlib.c
+[v _wave_drive wave_drive `(v  1 e 1 0 ]
+"111
+[v _ms_delay ms_delay `(v  1 e 1 0 ]
+"228 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S22 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S30 . 1 `S22 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES30  1 e 1 @12 ]
+"843
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"850
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S41 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"870
+[s S47 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S52 . 1 `S41 1 . 1 0 `S47 1 . 1 0 ]
+[v _SSPCONbits SSPCONbits `VES52  1 e 1 @20 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S270 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1557
+[u S279 . 1 `S270 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES279  1 e 1 @135 ]
+[s S177 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 LTS 1 0 :1:1 
+`uc 1 HTS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+]
+"1882
+[s S183 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S188 . 1 `S177 1 . 1 0 `S183 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES188  1 e 1 @143 ]
+"1979
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+[s S291 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"1996
+[u S300 . 1 `S291 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES300  1 e 1 @145 ]
+"2048
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"2177
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S68 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"2231
+[s S77 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S82 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S88 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S93 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S98 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S103 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S108 . 1 `S68 1 . 1 0 `S77 1 . 1 0 `S82 1 . 1 0 `S88 1 . 1 0 `S93 1 . 1 0 `S98 1 . 1 0 `S103 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES108  1 e 1 @148 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3641
+[v _BF BF `VEb  1 e 0 @1184 ]
+"3896
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4040
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4274
+[v _SSPIE SSPIE `VEb  1 e 0 @1123 ]
+"4277
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"4457
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"4460
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"29 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\PIC3_PD2.c
+[v _z z `uc  1 e 1 0 ]
+"30
+[v _signal signal `uc  1 e 1 0 ]
+"33
+[v _send send `uc  1 e 1 0 ]
+"71
+[v _main main `(v  1 e 1 0 ]
+{
+"88
+[v main@i i `i  1 a 2 4 ]
+"97
+} 0
+"87 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\stepperlib.c
+[v _wave_drive wave_drive `(v  1 e 1 0 ]
+{
+[v wave_drive@direction direction `uc  1 a 1 wreg ]
+[v wave_drive@direction direction `uc  1 a 1 wreg ]
+[v wave_drive@direction direction `uc  1 a 1 5 ]
+"109
+} 0
+"111
+[v _ms_delay ms_delay `(v  1 e 1 0 ]
+{
+"113
+[v ms_delay@j j `ui  1 a 2 2 ]
+[v ms_delay@i i `ui  1 a 2 0 ]
+"111
+[v ms_delay@val val `ui  1 p 2 3 ]
+"116
+} 0
+"99 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\PIC3_PD2.c
+[v _setup setup `(v  1 e 1 0 ]
+{
+"106
+} 0
+"90 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\i2clib.c
+[v _I2C_Slave_Init I2C_Slave_Init `(v  1 e 1 0 ]
+{
+[v I2C_Slave_Init@address address `uc  1 a 1 wreg ]
+[v I2C_Slave_Init@address address `uc  1 a 1 wreg ]
+"92
+[v I2C_Slave_Init@address address `uc  1 a 1 3 ]
+"102
+} 0
+"35 C:\ProyectosDigitali2\Proyecto1Digital\PIC3_STEPPER\PIC3.X\PIC3_PD2.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"67
+} 0
